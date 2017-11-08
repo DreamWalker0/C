@@ -1,0 +1,43 @@
+/cs 290 10/4/2017/
+/values of red,green,blue = rgb -> in hex= #ff,80,00
+rgba adds alpha value (0-1){oppasity}/
+
+
+.reddish{
+  color:rgba(255,128,0,0.5);
+  /*color:#ff8000*/
+}
+
+.large{
+  font-size: 200%;
+  /* font-size: 24px;*/
+  /* font-size: 2em;*/
+  /* font-size: 28pt; pt=1/72in*/
+  /* font-size: 25vw;(view windows percent or vh for view hight)*/
+}
+
+.bold {
+  font-weight: normal;
+  font-weight: bolder;
+  font-weight: 100;(dark ->light)
+  font-family:sans etc;
+}
+
+.italic{
+  font-style:italic;
+}
+
+.things{
+  text-transform: uppeercase;
+  text-transform: capitalize;
+  text-declaration: underlines;
+  text-shadow: 5px 5px 10px rgba(0,0,0,0.5);(right(x), axis(y), blur,color)
+  text-align: center;
+  line-height: 2;/* sole number multiply by times line*/
+  line-height: 20px;
+}
+
+a {
+  text-declaration:none;/*remove underline of links*/
+
+}
